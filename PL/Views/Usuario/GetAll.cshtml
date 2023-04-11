@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "GetAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="~/js/JavaScript1.js"></script>
+<script src="https://naxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<div class="container">
+    <div class="row">
+        <div class="text-center">
+            <h2>Usuario</h2>
+        </div>
+    </div>
+    <br>
+ <div class="row">
+        <div class="col-md-12">
+            <h5>Seleccione un Usuario para eliminar  o presione "Agregar para añadir uno nuevo"</h5>
+            <hr />
+        </div>
+        <div class="col-md-12" style="float:left;">
+            <button class="btn btn-success btn-lg btn-block" id="btnAgregar" type="button" onclick="GetAll()">Agregar Registro</button>
+            </div>
+    </div>
+</div>
+<br />
+ <div class="container">
+      <div class="row">
+           <table class="table table-info table-bordered table-hover table-responsive" id="table_usuario">
+                <thead>
+                     <tr class="table-secondary">
+                          <td style="text-align:center;">Imagen</td>
+                          <td style="text-align:center;">Nombre</td>
+                          <td style="text-align:center;">Apellido</td>
+                           <td style="text-align:center;">EMail</td>
+                            <td style="text-align:center;">Genero</td>
+                          </tr>
+                          </thead>
+                          <tbody>
+                              </tbody>
+                              </table>
+                              </div>
+                              </div>
+ <div class="row">
+      <div class="col-md-0">
+          </div>
+          <div class="col-md-12" style="float:left;">
+              <button class="btn btn-danger btn-lg btn-block" id="btnAgregar" type="button" onclick="Borrar()">Limpiar Registros</button>
+</div>
+</div>
+
+
+
+
+
